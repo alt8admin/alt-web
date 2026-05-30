@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const footerLinks = {
   Services: ["Cloud Infrastructure", "Cybersecurity", "Custom Software", "IT Consulting", "Managed Services"],
   Company: ["About", "Careers", "Blog", "Press Kit"],
@@ -11,7 +13,7 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-10">
           <div className="lg:col-span-2">
             <a href="#hero" className="flex items-center gap-2 text-xl font-bold text-white mb-4">
-              <span className="w-8 h-8 rounded-lg bg-gradient-to-br from-brand to-accent flex items-center justify-center text-white text-sm font-black">8</span>
+              <Image src="/Logo.jpg" alt="ALT 8" width={36} height={36} className="rounded-lg object-cover" />
               ALT 8
             </a>
             <p className="text-sm text-white/50 max-w-xs leading-relaxed">

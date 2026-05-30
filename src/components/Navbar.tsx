@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from "react";
+import Image from "next/image";
 
 const navLinks = [
   { href: "#hero", label: "Home" },
@@ -15,11 +16,15 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-border">
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#hero" className="flex items-center gap-2 text-xl font-bold tracking-tight">
-          <span className="w-8 h-8 rounded-lg bg-gradient-to-br from-brand to-accent flex items-center justify-center text-white text-sm font-black">
-            8
-          </span>
-          <span className="gradient-text">ALT 8</span>
+        <a href="#hero" className="flex items-center gap-2">
+          <Image
+            src="/Logo.jpg"
+            alt="ALT 8"
+            width={36}
+            height={36}
+            className="rounded-lg object-cover"
+          />
+          <span className="text-xl font-bold tracking-tight gradient-text">ALT 8</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
