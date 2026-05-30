@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     "ALT 8 delivers cutting-edge IT services: cloud infrastructure, cybersecurity, custom software development, and digital transformation for modern businesses.",
   icons: {
-    icon: "/logo.png",
+    icon: "/Logo.jpg",
   },
   openGraph: {
     title: "ALT 8 — Next-Gen IT Solutions",
