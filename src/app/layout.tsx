@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://alt8.vercel.app"),
+  metadataBase: new URL("https://alt8-web.vercel.app"),
   title: "ALT 8 — Next-Gen IT Solutions",
   description:
     "ALT 8 delivers cutting-edge IT services: cloud infrastructure, cybersecurity, custom software development, and digital transformation for modern businesses.",
